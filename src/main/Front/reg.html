@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="3; url=index.html"> -->
+    <link rel="stylesheet" href="css/reg.css">
+    <title>Регистрация</title>
+</head>
+
+<body>
+    <div class="content">
+
+
+
+        <nav class="nav">
+            <ul class="txt">
+                <a href="index.html">Вход</a>
+                <a href="#">Форум</a>
+                <a href="reg.html">Регистрация</a>
+                <div class="animation start-home"></div>
+            </ul>
+        </nav>
+        <div class="Wrapper">
+            <div class="form">
+                <form action="#" id="form" class="form_body">
+                    <h1 class="form_title">Регистрация</h1>
+                    <div class="form_item">
+                        <label for="formName" class="form_lable"><span>Логин</span>*</label>
+                        <input id="formName" type="text" name="name" class="form_input">
+                    </div>
+                    <div class="form_item">
+                        <label for="formPass" class="form_lable">Password*</label>
+                        <input id="formPass" type="text" name="pass" class="form_input">
+                    </div>
+                    <div class="form_item">
+                        <label for="formEmail" class="form_lable">E-mail*</label>
+                        <input id="formEmale" type="text" name="emale" class="form_input">
+                    </div>
+                    <div class="form_item">
+                        <div class="form_lable">Ваш пол</div>
+                        <div class="options">
+                            <div class="options_item">
+                                <input checked id="formMan" type="radio" value="left" name="gender" class="options_input">
+                                <label for="formMan" class="options_lable"><span></span>Мужской</span></label>
+                            </div>
+                            <div class="options_item">
+                                <input id="formWoman" type="radio" value="right" name="gender" class="options_input">
+                                <label for="formWoman" class="options_lable"><span>Женский</span></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_item">
+                        <div class="checkbox">
+                            <input checked id="forAgreement" type="checkbox" name="agreement" class="checkbox_input">
+                            <label for="forAgreement" class="checkbox_lable1"><span>Я согласен c <a href="#">правилами сайта</a></span></label>
+                        </div>
+                    </div>
+                    <button type="submit" class="form_button">Создать</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
